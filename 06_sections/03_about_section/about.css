@@ -1,0 +1,286 @@
+/* ==========================================================
+                    ABOUT SECTION
+========================================================== */
+
+.about{
+
+    position:relative;
+
+    padding:120px 0;
+
+    background:#FFFFFF;
+
+    overflow:hidden;
+
+}
+
+
+/* Background Decorations */
+
+.about::before{
+
+    content:"";
+
+    position:absolute;
+
+    width:420px;
+
+    height:420px;
+
+    background:rgba(37,99,235,.05);
+
+    border-radius:50%;
+
+    top:-180px;
+
+    left:-180px;
+
+    filter:blur(70px);
+
+}
+
+.about::after{
+
+    content:"";
+
+    position:absolute;
+
+    width:320px;
+
+    height:320px;
+
+    background:rgba(96,165,250,.06);
+
+    border-radius:50%;
+
+    bottom:-120px;
+
+    right:-120px;
+
+    filter:blur(70px);
+
+}
+
+/* ==========================================================
+                    CONTAINER
+========================================================== */
+
+.about-container{
+
+    position:relative;
+
+    z-index:2;
+
+    width:90%;
+
+    max-width:1350px;
+
+    margin:auto;
+
+    display:grid;
+
+    grid-template-columns:1fr 1.2fr;
+
+    gap:80px;
+
+    align-items:center;
+
+}
+
+/* ==========================================================
+                    LEFT SIDE
+========================================================== */
+
+.about-left{
+
+    display:flex;
+
+    justify-content:center;
+
+}
+
+/* ==========================================================
+                    WORKSTATION CARD
+========================================================== */
+
+.workstation-card{
+
+    width:100%;
+
+    max-width:620px;
+
+    border-radius:32px;
+
+    overflow:hidden;
+
+    background:#ffffff;
+
+    border:1px solid #E2E8F0;
+
+    box-shadow:
+
+        0 30px 70px rgba(15,23,42,.12);
+
+    transition:.4s ease;
+
+}
+
+.workstation-card img{
+
+    width:100%;
+
+    display:block;
+
+}
+
+.workstation-card:hover{
+
+    transform:translateY(-12px);
+
+    box-shadow:
+
+        0 45px 90px rgba(37,99,235,.20);
+
+}
+
+@keyframes floating{
+
+    0%{
+
+        transform:translateY(0);
+
+    }
+
+    50%{
+
+        transform:translateY(-10px);
+
+    }
+
+    100%{
+
+        transform:translateY(0);
+
+    }
+
+}
+
+.workstation-card{
+
+    animation:floating 5s ease-in-out infinite;
+
+}
+
+.workstation-card::before{
+
+    content:"";
+
+    position:absolute;
+
+    inset:0;
+
+    border-radius:32px;
+
+    box-shadow:
+
+        inset 0 0 80px rgba(37,99,235,.08);
+
+    pointer-events:none;
+
+}
+
+/* ==========================================================
+                    RIGHT SIDE
+========================================================== */
+
+.about-right h2{
+
+    margin-top:20px;
+
+    font-size:48px;
+
+    color:#0F172A;
+
+    line-height:1.2;
+
+}
+
+.about-description{
+
+    margin-top:30px;
+
+    color:#64748B;
+
+    line-height:1.9;
+
+    font-size:18px;
+
+}
+
+/* ==========================================================
+                    HIGHLIGHTS
+========================================================== */
+
+.about-highlights{
+
+    display:grid;
+
+    grid-template-columns:repeat(2,1fr);
+
+    gap:20px;
+
+    margin-top:40px;
+
+}
+
+.highlight{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:15px;
+
+    padding:18px 20px;
+
+    border-radius:18px;
+
+    background:#F8FAFC;
+
+    border:1px solid #E2E8F0;
+
+    transition:.35s;
+
+}
+
+.highlight i{
+
+    width:38px;
+
+    height:38px;
+
+    border-radius:50%;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    background:#2563EB;
+
+    color:white;
+
+}
+
+.highlight:hover{
+
+    transform:translateY(-6px);
+
+    border-color:#2563EB;
+
+    box-shadow:
+
+        0 20px 40px rgba(37,99,235,.15);
+
+}

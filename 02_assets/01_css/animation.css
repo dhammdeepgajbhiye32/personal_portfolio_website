@@ -1,0 +1,44 @@
+/*==================================================
+            ANIMATION CONTROLLER
+==================================================*/
+
+.animate-section {
+
+    opacity: 0;
+
+    transform: translateY(50px);
+
+    transition:
+        opacity .8s ease,
+        transform .8s ease;
+
+    will-change: opacity, transform;
+
+}
+
+.animate-section.visible {
+
+    opacity: 1;
+
+    transform: translateY(0);
+
+}
+
+/*==================================================
+        REDUCED MOTION
+==================================================*/
+
+@media (prefers-reduced-motion: reduce) {
+
+    .animate-section,
+    .animate-section.visible {
+
+        opacity: 1;
+
+        transform: none;
+
+        transition: none;
+
+    }
+
+}

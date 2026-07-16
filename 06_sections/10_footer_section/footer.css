@@ -1,0 +1,189 @@
+/*==================================================
+                    FOOTER
+==================================================*/
+
+.footer{
+
+    background:#0F172A;
+
+    padding:70px 0 30px;
+
+    color:#CBD5E1;
+
+}
+
+/*==================================================
+                    CONTAINER
+==================================================*/
+
+.footer-container{
+
+    width:90%;
+
+    max-width:1400px;
+
+    margin:auto;
+
+    display:flex;
+
+    flex-direction:column;
+
+    align-items:center;
+
+    text-align:center;
+
+}
+
+/*==================================================
+                    LOGO
+==================================================*/
+
+.footer-logo{
+
+    width:220px;
+
+    object-fit:contain;
+
+    margin-bottom:25px;
+
+    transition:var(--transition);
+
+}
+
+.footer-logo:hover{
+
+    transform:scale(1.05);
+
+}
+
+/*==================================================
+                    BRAND
+==================================================*/
+
+.footer-brand h3{
+
+    color:var(--white);
+
+    font-size:32px;
+
+    margin-bottom:15px;
+
+}
+
+.footer-brand p{
+
+    max-width:700px;
+
+    margin:auto;
+
+    color:#CBD5E1;
+
+    line-height:1.8;
+
+}
+
+/*==================================================
+                    SOCIAL
+==================================================*/
+
+.footer-social{
+
+    display:flex;
+
+    gap:20px;
+
+    margin-top:35px;
+
+}
+
+.footer-social a{
+
+    width:55px;
+
+    height:55px;
+
+    border-radius:50%;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    text-decoration:none;
+
+    background:rgba(255,255,255,.08);
+
+    color:var(--white);
+
+    font-size:22px;
+
+    transition:var(--transition);
+
+}
+
+.footer-social a:hover{
+
+    background:var(--primary);
+
+    transform:translateY(-5px);
+
+}
+
+/*==================================================
+                    BOTTOM
+==================================================*/
+
+.footer-bottom{
+
+    width:90%;
+
+    max-width:1400px;
+
+    margin:60px auto 0;
+
+    padding-top:25px;
+
+    border-top:1px solid rgba(255,255,255,.08);
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    flex-wrap:wrap;
+
+    gap:15px;
+
+}
+
+.footer-bottom p{
+
+    color:#94A3B8;
+
+}
+
+.footer-bottom span{
+
+    color:var(--primary);
+
+    font-weight:600;
+
+}
+
+/*==================================================
+                    RESPONSIVE
+==================================================*/
+
+@media(max-width:768px){
+
+    .footer-bottom{
+
+        flex-direction:column;
+
+        text-align:center;
+
+    }
+
+}

@@ -1,0 +1,69 @@
+Personal Portfolio Typography Guide
+
+Reference analyzed: portfolio layout (1536 x 1024)
+
+Recommended Google Fonts
+
+Logo
+
+-   Sora ExtraBold
+-   Space Grotesk Bold
+
+Navigation Menu
+
+-   Inter Medium (16–18px)
+
+Hero Section
+
+-   Welcome Text: Inter Medium
+-   Main Name: Sora ExtraBold
+-   Subtitle (Data Analyst): Inter SemiBold
+-   Technology Tags: Inter Medium
+-   Buttons: Inter SemiBold
+
+Section Titles
+
+-   Sora Bold
+
+Cards (About, Projects, Certificates)
+
+-   Card Title: Sora SemiBold
+-   Card Body: Inter Regular
+-   Metadata: Inter Medium
+-   Buttons: Inter SemiBold
+
+Skills
+
+-   Inter Medium
+
+Project Page
+
+-   Project Title: Sora Bold
+-   Description: Inter Regular
+-   Labels/Badges: Inter Medium
+
+Contact Section
+
+-   Headings: Sora Bold
+-   Form Labels: Inter Medium
+-   Input Text: Inter Regular
+
+Code / SQL
+
+-   JetBrains Mono
+-   IBM Plex Mono
+
+Color Style
+
+-   Primary Blue: #2563EB
+-   Dark Blue: #1E40AF
+-   White: #FFFFFF
+-   Light Gray: #F8FAFC
+-   Text: #1F2937
+
+Best Font Combination
+
+Primary Heading : Sora Primary Body : Inter Code : JetBrains Mono
+
+This combination closely matches the clean, modern, professional
+portfolio style shown in the reference image.

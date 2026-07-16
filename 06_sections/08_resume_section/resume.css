@@ -1,0 +1,221 @@
+/*==================================================
+                RESUME SECTION
+==================================================*/
+
+.resume{
+
+    padding:120px 0;
+
+    background:#FFFFFF;
+
+}
+
+.resume-container{
+
+    width:90%;
+
+    max-width:1400px;
+
+    margin:auto;
+
+}
+
+/*==================================================
+                HEADING
+==================================================*/
+
+.resume-heading{
+
+    text-align:center;
+
+    margin-bottom:80px;
+
+}
+
+.resume-heading h2{
+
+    font-size:54px;
+
+    color:#0F172A;
+
+    margin:20px 0;
+
+}
+
+.resume-heading p{
+
+    max-width:800px;
+
+    margin:auto;
+
+    color:#64748B;
+
+    font-size:19px;
+
+    line-height:1.8;
+
+}
+
+/*==================================================
+                CONTENT
+==================================================*/
+
+.resume-content{
+
+    display:grid;
+
+    grid-template-columns:1fr 450px;
+
+    gap:60px;
+
+    align-items:center;
+
+}
+
+.resume-details{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:25px;
+
+}
+
+.resume-title{
+
+    font-size:42px;
+
+    color:#0F172A;
+
+}
+
+.resume-description{
+
+    color:#64748B;
+
+    line-height:1.8;
+
+}
+
+.resume-info{
+
+    display:grid;
+
+    grid-template-columns:repeat(2,1fr);
+
+    gap:20px;
+
+}
+
+.resume-item{
+
+    background:#F8FAFC;
+
+    padding:18px;
+
+    border-radius:15px;
+
+    border:1px solid #E2E8F0;
+
+}
+
+.resume-item h4{
+
+    color:#2563EB;
+
+    margin-bottom:8px;
+
+}
+
+.resume-buttons{
+
+    display:flex;
+
+    gap:18px;
+
+    margin-top:15px;
+
+}
+
+.resume-btn{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:10px;
+
+    padding:14px 24px;
+
+    border-radius:50px;
+
+    text-decoration:none;
+
+    color:#FFFFFF;
+
+    background:#2563EB;
+
+    font-weight:600;
+
+    transition:.3s;
+
+}
+
+.resume-btn:hover{
+
+    transform:translateY(-3px);
+
+    background:#1D4ED8;
+
+}
+
+.preview-btn{
+
+    background:#16A34A;
+
+}
+
+.preview-btn:hover{
+
+    background:#15803D;
+
+}
+
+/*==================================================
+                PREVIEW
+==================================================*/
+
+.resume-preview{
+
+    background:#FFFFFF;
+
+    padding:20px;
+
+    border-radius:20px;
+
+    box-shadow:0 20px 50px rgba(15,23,42,.08);
+
+}
+
+.resume-preview img{
+
+    width:100%;
+
+    border-radius:12px;
+
+}
+
+/*==================================================
+                RESPONSIVE
+==================================================*/
+
+@media(max-width:992px){
+
+    .resume-content{
+
+        grid-template-columns:1fr;
+
+    }
+
+}
