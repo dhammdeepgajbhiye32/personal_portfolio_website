@@ -25,16 +25,16 @@ document.addEventListener("DOMContentLoaded", async () => {
         }
 
         const sections = [
-            ["../06_sections/01_hero_section/hero.html", "hero"],
-            ["../06_sections/02_analytics_section/analytics.html", "analytics"],
-            ["../06_sections/03_about_section/about.html", "about"],
-            ["../06_sections/04_skills_section/skills.html", "skills"],
-            ["../06_sections/05_projects_section/project.html", "projects"],
-            ["../06_sections/06_experience_section/experience.html", "experience"],
-            ["../06_sections/07_certificate_section/certificate.html", "certificate"],
-            ["../06_sections/08_resume_section/resume.html", "resume"],
-            ["../06_sections/09_contact_section/contact.html", "contact"],
-            ["../06_sections/10_footer_section/footer.html", "footer"]
+            ["../05_sections/01_hero_section/hero.html", "hero"],
+            ["../05_sections/02_analytics_section/analytics.html", "analytics"],
+            ["../05_sections/03_about_section/about.html", "about"],
+            ["../05_sections/04_skills_section/skills.html", "skills"],
+            ["../05_sections/05_projects_section/project.html", "projects"],
+            ["../05_sections/06_experience_section/experience.html", "experience"],
+            ["../05_sections/07_certificate_section/certificate.html", "certificate"],
+            ["../05_sections/08_resume_section/resume.html", "resume"],
+            ["../05_sections/09_contact_section/contact.html", "contact"],
+            ["../05_sections/10_footer_section/footer.html", "footer"]
         ];
 
         await Promise.all(
