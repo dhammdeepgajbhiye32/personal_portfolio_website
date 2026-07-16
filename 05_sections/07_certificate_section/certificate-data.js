@@ -57,7 +57,7 @@ const certificate = [
 
     year: "2026",
 
-    logo: "hackerrank.png",
+    logo: "hackerRank.png",
 
     description:
         "Successfully completed the HackerRank SQL (Advanced) certification by solving complex SQL challenges and database problems.",
